@@ -1,0 +1,34 @@
+{
+  "counters": [
+    {
+      "id": "7bb637e4-e433-43c6-ab96-53d759d0b28a",
+      "title": "asd voi muokata",
+      "count": 3,
+      "archived": false
+    },
+    {
+      "id": "3b86d5e6-7b27-4b5e-9189-860d27296349",
+      "title": "A",
+      "count": 3,
+      "archived": true
+    },
+    {
+      "id": "1867a75c-33c6-48f8-b39f-9055bc3e08c3",
+      "title": "Uusi",
+      "count": 50,
+      "archived": true
+    },
+    {
+      "id": "0a857b08-45ac-410d-a794-5cd6cce3741e",
+      "title": "Counter",
+      "count": -6,
+      "archived": false
+    },
+    {
+      "id": "43a2eaa9-5a55-461a-9b57-e2a1a55c6ee5",
+      "title": "Arkistoidaan",
+      "count": 50,
+      "archived": true
+    }
+  ]
+}
