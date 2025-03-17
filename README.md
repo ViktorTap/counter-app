@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+### Counter-sovellus 📊
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Yleiskatsaus
 
-## Get started
+Tämä on yksinkertainen React Native -sovellus, jossa käyttäjät voivat:
 
-1. Install dependencies
+Luoda laskureita mukautetulla nimellä ja aloitusarvolla
+Lisätä tai vähentää laskurin arvoa
+Muokata laskurin nimeä
+Arkistoida tai poistaa laskureita
+Palauttaa arkistoidut laskurit takaisin aktiivisiksi
 
-   ```bash
-   npm install
-   ```
+Sovellus tallentaa tiedot JSON-palvelimeen ja päivittyy välittömästi välilehtien välillä siirryttäessä.
 
-2. Start the app
+## Ominaisuudet
 
-   ```bash
-    npx expo start
-   ```
+-> Luo uusia laskureita omalla nimellä ja aloitusarvolla
+-> Muokkaa laskurin nimeä dynaamisesti
+-> Kasvata tai pienennä arvoa pyöreillä painikkeilla
+-> Arkistoi laskurit (siirtää ne arkistoituun listaan)
+-> Palauta arkistoidut laskurit takaisin aktiiviseksi
+-> Poista laskurit pysyvästi
+-> Reaaliaikaiset päivitykset useFocusEffect-hookilla
 
-In the output, you'll find options to open the app in a
+## Tekninen toteutus
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    React Native (Expo)
+    Tailwind CSS (NativeWind)
+    React Navigation (välilehtinavigaatioon)
+    JSON Server (paikalliseen tietojen tallennukseen)
